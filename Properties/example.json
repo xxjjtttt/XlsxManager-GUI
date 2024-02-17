@@ -1,0 +1,50 @@
+{
+  "task": {
+    "enabled": true,
+    "save_rubbish": false,
+    "file": {
+      "database": {
+        "path": "database.path",
+        "active_sheet": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "sourcefile": {
+        "path": "sourcefile.path",
+        "key_column": 5,
+        "index_column": 1,
+        "have_header": true,
+        "active_sheet": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      "targetfile": {
+        "path": "./Output/Output2.xlsx",
+        "headers": [
+          "人文学部",
+          "理工学部",
+          "教育与艺术学部",
+          "经济与管理学部",
+          "迪科金融服务产业学院",
+          "优能东风悦享新能源汽车产业学院",
+          "腾讯云大数据产业学院",
+          "翔宇航空产业学院"
+        ]
+      }
+    }
+  }
+}
