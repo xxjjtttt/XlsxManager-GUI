@@ -22,6 +22,10 @@ class DatabaseGroup(QGroupBox):
         data = []
         for widget in widgets:
             data.append(widget.get_data())
+        if type(data[1]) == list:
+            return data
+        else:
+            data[1] = [data[1]]
         return data
 
     def put_data(self, data_set):
@@ -100,6 +104,10 @@ class SourcefileGroup(QGroupBox):
         data = []
         for widget in widgets:
             data.append(widget.get_data())
+        if type(data[4]) == list:
+            return data
+        else:
+            data[4] = [data[4]]
         return data
 
     def put_data(self, data_set):
@@ -159,6 +167,8 @@ class MainGroup(QGroupBox):
         data = []
         for widget in widgets:
             data.append(widget.get_data())
+        # data[1][1] = [data[1][1]]
+        # data[2][4] = [data[2][4]]
         print(data)
         return data
 

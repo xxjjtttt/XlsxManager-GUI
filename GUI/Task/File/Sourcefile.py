@@ -70,7 +70,7 @@ class Sourcefile:
             return [self.working_sheet.max_row + 1, self.working_sheet.max_column]
 
     def get_sheetnames(self) -> list[str]:
-        if not self.active_sheet:
+        if self.active_sheet:
             return self.file.sheetnames
         else:
             sheetnames: list[str] = self.file.sheetnames
