@@ -1,0 +1,26 @@
+{
+    "task": {
+        "enabled": true,
+        "save_rubbish": true,
+        "file": {
+            "database": {
+                "path": "C:/Users/Administrator/Desktop/Database.xlsx",
+                "active_sheet": [1]
+            },
+            "sourcefile": {
+                "path": "C:/Users/Administrator/Desktop/IN.xlsx",
+                "key_column": 3,
+                "index_column": 1,
+                "have_header": true,
+                "active_sheet": [1]
+            },
+            "targetfile": {
+                "path": "C:/Users/Administrator/Desktop/OUT.xlsx",
+                "headers": [
+                    "第一小学",
+                    "第二小学"
+                ]
+            }
+        }
+    }
+}
